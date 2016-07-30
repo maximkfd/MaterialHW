@@ -3,34 +3,42 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_relogin"
-            android:icon="@drawable/ic_refresh"
-            android:title="Relogin" />
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+
+            android:title="@string/journal" />
+
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/dummy" />
+            android:id="@+id/nav_protocol"
+            android:icon="@drawable/ic_schedule_black_24dp"
+            android:title="@string/protocol"
+            />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/dummy" />
+            android:id="@+id/nav_book_101"
+            android:icon="@drawable/ic_computer_black_24dp"
+            android:title="@string/_101" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/dummy" />
+            android:id="@+id/nav_rating50"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/rating"
+            />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/action_settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/logout"
+            />
+
+        <item
+            android:id="@+id/nav_developers"
+            android:icon="@drawable/ic_accessible_black_24dp"
+            android:title="@string/developers" />
     </group>
 
-    <item android:title="@string/dummy">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/dummy" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="d    " />
-        </menu>
-    </item>
+
 
 </menu>

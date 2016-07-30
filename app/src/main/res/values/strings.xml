@@ -10,4 +10,11 @@
     <string name="refresh">Refresh</string>
     <string name="login">Login</string>
     <string name="password">Password</string>
+    <string name="icon">icon</string>
+    <string name="journal">Журнал</string>
+    <string name="developers">Разработчики</string>
+    <string name="_101">Запись в 101</string>
+    <string name="rating">Рейтинг</string>
+    <string name="protocol">Протокол изменений</string>
+    <string name="logout">Выйти</string>
 </resources>

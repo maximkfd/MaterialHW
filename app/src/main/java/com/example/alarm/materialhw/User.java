@@ -1,30 +1,36 @@
 package com.example.alarm.materialhw;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class User {
     private String name;
-    private String surname;
-    private int rating;
+    private Rating currentRating = new Rating();
+    private List<Rating> ratings = new ArrayList<>();
     private String group;
+    public static User instance;
 
-    public User(String name, String surname) {
-        this.name = name;
-        this.surname = surname;
+    public static User getInstance(){
+        if (instance == null){
+            instance = new User();
+        }
+        return instance;
     }
+    public User(){}
 
-    public void setRating(int rating) {
-        this.rating = rating;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getSurname() {
-        return surname;
+    public Rating getCurrentRating() {
+        return currentRating;
     }
 
-    public int getRating() {
-        return rating;
+    public void setCurrentRating(Rating currentRating) {
+        this.currentRating = currentRating;
     }
-
 }

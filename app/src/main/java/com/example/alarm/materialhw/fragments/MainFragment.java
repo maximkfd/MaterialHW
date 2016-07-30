@@ -66,8 +66,6 @@ public class MainFragment extends Fragment {
                     exam[i] = preferences.getBoolean("exam"+i, false);
                     points[i] = preferences.getFloat("points"+i, -1);
                 }
-
-
                 recyclerView.setAdapter(new MockAdapter(names, exam, points, context));
             }
         }
